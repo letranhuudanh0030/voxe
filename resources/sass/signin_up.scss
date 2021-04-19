@@ -1,0 +1,15 @@
+.border-captcha{
+    background: gray;
+    color: white;
+    text-align: center;
+    p{
+        font-size: 18px;
+        padding: 4px;
+    }
+}
+.border-login{
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
+    padding-top: 15px;
+}

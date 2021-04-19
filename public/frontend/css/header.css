@@ -1,0 +1,87 @@
+@charset "UTF-8";
+
+#header .slogan__company {
+  color: #b60000;
+  font-weight: bold;
+  font-size: 2em;
+  font-family: 'RobotoBold';
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #header .slogan__company {
+    font-size: 1em;
+  }
+}
+
+#header .slogan__sub {
+  color: #000;
+  font-weight: bold;
+  font-style: italic;
+  font-family: 'RobotoBold';
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #header .slogan__sub {
+    font-size: 1em;
+  }
+}
+
+#header .prices p {
+  margin: 0;
+}
+
+#header .prices__title {
+  background: #FFFFFF;
+  /*text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c;*/
+  color: #000000;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #header .prices__title {
+    font-size: 1em;
+  }
+}
+
+#header .prices__phone {
+  font-weight: bold;
+  color: #b60000;
+  font-size: 1.5em;
+}
+
+#header .prices__phone::before {
+  content: "\F098";
+  font-family: "FontAwesome";
+  margin-right: 5px;
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  #header .prices__phone {
+    font-size: 1em;
+  }
+}
+
+#header .action-header__cart {
+  font-size: 2em;
+  color: #000;
+  text-decoration: none;
+}
+
+#header .action-header__cart b {
+  font-size: 0.8em;
+  background: #b60000;
+  color: #FFF;
+  padding: 0 10px;
+  border-radius: 5px;
+}
+
+#header .action-header__cart--icon::before {
+  content: "\F07A";
+  font-family: "FontAwesome";
+  background: #FFFFFF;
+  text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+  color: #000000;
+  margin-right: 10px;
+}
+

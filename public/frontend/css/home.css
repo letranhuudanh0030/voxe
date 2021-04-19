@@ -1,0 +1,335 @@
+#banner_categories .category__item {
+  position: relative;
+}
+
+#banner_categories .category__item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+  pointer-events: none;
+  transition: all 0.3s;
+  background: rgba(0, 0, 0, 0.3);
+  opacity: 0;
+}
+
+#banner_categories .category__item:hover::before {
+  opacity: 1;
+}
+
+#slideshow {
+  position: relative;
+}
+
+#slideshow .slide-show {
+  position: relative;
+}
+
+#slideshow .slide-show .slide-content {
+  background: #FFF;
+}
+
+#slideshow .slide-show .slide-content img {
+  width: 100%;
+  position: relative;
+}
+
+#slideshow .slide-show .slide-content .content {
+  position: absolute;
+  top: 20%;
+  left: 8%;
+}
+
+#slideshow .slide-show .slide-content .content h3 {
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  text-transform: uppercase;
+  color: #bd243a;
+  font-size: 2em;
+  font-family: "Roboto", sans-serif !important;
+  position: relative;
+}
+
+#slideshow .slick-current .slide-content .content h3 {
+  -webkit-animation-name: fadeInBottom;
+          animation-name: fadeInBottom;
+  -webkit-animation-delay: 0.4s;
+          animation-delay: 0.4s;
+  -webkit-animation-duration: 0.5s;
+          animation-duration: 0.5s;
+}
+
+#slideshow .slide-show .slide-content .content h1 {
+  color: #45393b;
+  font-family: "Roboto", serif;
+  font-size: 3.5em;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+#slideshow .slide-show .slide-content .content h1 span {
+  position: relative;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#slideshow .slick-current .slide-content .content h1 span {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+#slideshow .slide-show .slide-content .content p {
+  color: #45393b;
+  max-width: 500px;
+  margin-bottom: 20%;
+  position: relative;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+
+#slideshow .slick-current .slide-content .content p {
+  -webkit-animation-name: fadeInBottom;
+          animation-name: fadeInBottom;
+  -webkit-animation-delay: 1s;
+          animation-delay: 1s;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
+#slideshow .slide-show .slide-content .content a {
+  border: 2px solid #45393b;
+  outline: none;
+  padding: 2% 5%;
+  border-radius: 30px;
+  font-size: 1.1em;
+  text-decoration: none;
+  color: #45393b;
+  transition: all ease 0.3s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+  position: relative;
+}
+
+#slideshow .slide-show .slide-content .content a:hover {
+  background: #bd243a;
+  color: #FFF;
+  border: 2px solid #bd243a;
+}
+
+#slideshow .slick-current .slide-content .content a {
+  -webkit-animation-name: fadeInBottom;
+          animation-name: fadeInBottom;
+  -webkit-animation-delay: 1.5s;
+          animation-delay: 1.5s;
+  -webkit-animation-duration: 1.5s;
+          animation-duration: 1.5s;
+}
+
+#slideshow .nb-next-pre {
+  width: 36px;
+  height: 36px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 1;
+  cursor: pointer;
+}
+
+#slideshow .nb-next-pre i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+}
+
+#slideshow .nb-next-next {
+  width: 36px;
+  height: 36px;
+  border: 1px solid transparent;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  cursor: pointer;
+}
+
+#slideshow .nb-next-next i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+}
+
+#slideshow:hover .nb-next-pre,
+#slideshow:hover .nb-next-next {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+#slideshow:hover .nb-next-pre i,
+#slideshow:hover .nb-next-next i {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+#slideshow .slick-dots li button:before{
+    color: #b60000;
+    font-size: 15px;
+}
+
+#slideshow .slick-dots{
+    width: unset;
+    bottom: 5%;
+    right: 5%;
+}
+
+/*#hd-slide .slide-show::after {*/
+
+/*  content: "";*/
+
+/*  position: absolute;*/
+
+/*  width: 100%;*/
+
+/*  height: 100%;*/
+
+/*  top: 0;*/
+
+/*  background: rgba(0, 0, 0, 0.1);*/
+
+/*}*/
+
+/*#hd-slide .nb-next-pre:hover {*/
+
+/*  border-color: rgba(0, 0, 0, 0.5);*/
+
+/*  background: rgba(0, 0, 0, 0.5);*/
+
+/*}*/
+
+/*#hd-slide .nb-next-next:hover {*/
+
+/*  border-color: rgba(0, 0, 0, 0.5);*/
+
+/*  background: rgba(0, 0, 0, 0.5);*/
+
+/*}*/
+
+/*Keyframes*/
+
+@-webkit-keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@keyframes fadeInBottom {
+  0% {
+    opacity: 0;
+    top: 30px;
+  }
+
+  100% {
+    opacity: 1;
+    top: 0;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+#video_home .video__youtube {
+  position: relative;
+}
+
+#video_home .video__youtube--button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: none;
+  font-size: 5em;
+  cursor: pointer;
+  opacity: 0.5;
+  color: #b60000;
+  transition: all ease 0.3s;
+}
+
+#video_home .video__youtube--button:hover {
+  transition: all ease 0.3s;
+  opacity: 1;
+}
+
+#service_home {
+  margin-top: 30px;
+}
+
+#service_home .service {
+  padding: 1% 0;
+  color: #FFF;
+}
+
+#service_home .service__content--title {
+  margin: 0;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-family: RobotoMedium;
+}
+
+@media (max-width: 768px) {
+  #service_home .service__content--title {
+    font-size: 1em;
+  }
+}
+
+#service_home .service__content--teaser p {
+  margin: 0;
+  line-height: initial;
+  font-size: 0.9em;
+  font-family: RobotoRegular;
+}
+
+@media (max-width: 768px) {
+  #service_home .service__content--teaser {
+    font-size: 0.8em;
+  }
+}
+
+#service_home .service--bg {
+  background: #3c3c3c;
+}
+

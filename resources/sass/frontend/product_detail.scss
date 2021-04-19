@@ -1,0 +1,101 @@
+#product_main{
+    .product-detail{
+        .product-slide{
+
+        }
+        .product-info{
+            &__title{
+                background: #FFFFFF;
+                text-shadow: 1px 1px 0 #bcbcbc, 1px 1px 0 #9c9c9c;
+                color: #000000;
+                font-size: 2.5em;
+                @media (max-width: 768px) {
+                    font-size: 1.5em;
+                }
+            }
+
+            &__intro{
+
+            }
+
+            &__price{
+                font-size: 1.5em;
+                color: #000;
+                span{
+                    color: #d82214;
+                    font-weight: bold;
+                }
+            }
+
+            &__quantity {
+                padding-bottom: 20px;
+                margin-right: 60px;
+                display: inline-block;
+        
+                input {
+                    -webkit-appearance: none;
+                    border: none;
+                    text-align: center;
+                    width: 32px;
+                    font-size: 16px;
+                    color: #43484D;
+                    font-weight: 300;
+                }
+        
+                button[class*=btn] {
+                    width: 30px;
+                    height: 30px;
+                    background-color: #7c7c7c;
+                    border-radius: 6px;
+                    border: none;
+                    cursor: pointer;
+                }
+        
+                .minus-btn {
+                    i {
+                        margin-bottom: 3px;
+                        color: #ffffff;
+                    }
+        
+                    &:hover i {
+                        color: #f3a800;
+                    }
+                }
+        
+                .plus-btn {
+                    i {
+                        margin-top: 2px;
+                        color: #ffffff;
+                    }
+        
+                    &:hover i {
+                        color: #f3a800;
+                    }
+                }
+        
+                button:focus,
+                input:focus {
+                    outline: 0;
+                }
+            }
+
+            &__action{
+                a{
+                    border: none;
+                    outline: none;
+                    background: #d82214;
+                    color: #FFF;
+                    padding: 10px 15px;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    border-radius: 5;
+                    transition: all ease 0.3s;
+                    &:hover{
+                        background: #000;
+                        transition: all ease 0.3s;
+                    }
+                }
+            }
+        }
+    }
+}

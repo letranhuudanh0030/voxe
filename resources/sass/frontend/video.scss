@@ -1,0 +1,23 @@
+#video_home{
+    .video{
+        &__youtube{
+            position: relative;
+            &--button{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                border: none;                
+                font-size: 5em;
+                cursor: pointer;
+                opacity: 0.5;
+                color: #b60000;
+                transition: all ease 0.3s;
+                &:hover{
+                    transition: all ease 0.3s;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

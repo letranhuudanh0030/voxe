@@ -1,0 +1,78 @@
+#header {
+    .slogan {
+        &__company {
+            color: #b60000;
+            font-weight: bold;
+            font-size: 2em;
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                font-size: 1em;
+            }
+        }
+
+        &__sub {
+            color: #000;
+            font-weight: bold;
+            font-style: italic;
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                font-size: 1em;
+            }
+        }
+    }
+
+    .prices {
+        p {
+            margin: 0;
+        }
+
+        &__title {
+            background: #FFFFFF;
+            text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+            color: #000000;
+            font-weight: bold;
+            font-size: 1.2em;
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                font-size: 1em;
+            }
+        }
+
+        &__phone{
+            font-weight: bold;
+            color: #b60000;
+            font-size: 1.5em;
+            &::before{
+                content:"\f098";
+                font-family: "FontAwesome";
+                margin-right: 5px;
+            }
+            @media (min-width: 992px) and (max-width: 1199.98px) {
+                font-size: 1em;
+            }
+        }
+    }
+
+    .action-header{
+        &__cart{
+            font-size: 2em;
+            color: #000;
+            text-decoration: none;
+            b{
+                font-size: 0.8em;
+                background: #b60000;
+                color: #FFF;
+                padding: 0 10px;
+                border-radius: 5px;
+            }
+        }
+
+        &__cart--icon{
+            &::before{
+                content: "\f07a";
+                font-family: "FontAwesome";
+                background: #FFFFFF;
+                text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c;
+                color: #000000;
+                margin-right: 10px;
+            }
+        }
+    }
+}

@@ -120,13 +120,14 @@
                 .a-all{
                     display: inline-block;
                     color: #FFF;
-                    font-size: 15px;
+                    font-size: 1em;
                     text-transform: uppercase;
                     text-decoration: none;
                     position: relative;
                     z-index: 1;
                     font-weight: bold;
                     width: 100%;
+                    font-family: MontserratBold;
                 }
                 &::after{
                     position: absolute;

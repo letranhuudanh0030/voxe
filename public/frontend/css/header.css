@@ -4,7 +4,7 @@
   color: #b60000;
   font-weight: bold;
   font-size: 2em;
-  font-family: 'RobotoBold';
+  font-family: "RobotoBold";
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -17,7 +17,7 @@
   color: #000;
   font-weight: bold;
   font-style: italic;
-  font-family: 'RobotoBold';
+  font-family: "RobotoBold";
 }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
@@ -32,7 +32,6 @@
 
 #header .prices__title {
   background: #FFFFFF;
-  /*text-shadow: 1px 1px 0 #bcbcbc, 2px 2px 0 #9c9c9c;*/
   color: #000000;
   font-weight: bold;
   font-size: 1.2em;

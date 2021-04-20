@@ -9,7 +9,6 @@
   font-weight: normal;
   margin-bottom: 20px;
   font-size: 2em;
-  font-family: MontserratMedium;
 }
 
 @media (max-width: 768px) {
@@ -38,17 +37,12 @@
   color: #636363;
   font-size: 1.2em;
   margin: 0;
-  font-family: RobotoRegular;
 }
 
 @media (max-width: 768px) {
   #element_title .title p {
     font-size: 1em;
   }
-  
-  #element_title .not-line .title h3 span::after{
-    display: none !important;
-    }
 }
 
 #element_title .title-left {
@@ -65,8 +59,4 @@
   border-bottom: 3px solid #000;
   width: 90px;
 }
-
-
-
-
 

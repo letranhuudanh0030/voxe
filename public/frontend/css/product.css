@@ -5,7 +5,7 @@
 #product .border-product {
   border: 1px solid #d2d2d2;
   margin: 0.5rem 0;
-  box-shadow: 0 0 1px 0 #d2d2d2;
+  box-shadow: 0 0 5px 0 #d2d2d2;
   text-align: center;
   transition: all ease 0.3s;
 }
@@ -27,11 +27,6 @@
   font-size: 1.3em;
   font-family: RobotoBold;
   text-transform: uppercase;
-}
-
-#product .border-product:hover .border-product__info--title{
-    color: #b60000;
-    transition: all ease 0.3s;
 }
 
 @media (max-width: 768px) {

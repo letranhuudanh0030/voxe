@@ -5,6 +5,37 @@
 //   src: url('./fonts/georgia/SVN-Georgia-Regular.otf');
 // }
 
+@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@font-face {
+	font-family: 'RobotoRegular';
+	src: url('/fonts/RobotoRegular.eot');
+	src: url('/fonts/RobotoRegular.eot') format('embedded-opentype'), url('/fonts/RobotoRegular.woff2') format('woff2'), url('/fonts/RobotoRegular.woff') format('woff'), url('/fonts/RobotoRegular.ttf') format('truetype'), url('/fonts/RobotoRegular.svg#RobotoRegular') format('svg');
+}
+
+@font-face {
+	font-family: 'MontserratBold';
+	src: url('/fonts/MontserratBold.eot');
+	src: url('/fonts/MontserratBold.eot') format('embedded-opentype'), url('/fonts/MontserratBold.woff2') format('woff2'), url('/fonts/MontserratBold.woff') format('woff'), url('/fonts/MontserratBold.ttf') format('truetype'), url('/fonts/MontserratBold.svg#MontserratBold') format('svg');
+}
+
+@font-face {
+	font-family: 'MontserratMedium';
+	src: url('/fonts/MontserratMedium.eot');
+	src: url('/fonts/MontserratMedium.eot') format('embedded-opentype'), url('/fonts/MontserratMedium.woff2') format('woff2'), url('/fonts/MontserratMedium.woff') format('woff'), url('/fonts/MontserratMedium.ttf') format('truetype'), url('/fonts/MontserratMedium.svg#MontserratMedium') format('svg');
+}
+
+@font-face {
+	font-family: 'RobotoBold';
+	src: url('/fonts/RobotoBold.eot');
+	src: url('/fonts/RobotoBold.eot') format('embedded-opentype'), url('/fonts/RobotoBold.woff2') format('woff2'), url('/fonts/RobotoBold.woff') format('woff'), url('/fonts/RobotoBold.ttf') format('truetype'), url('/fonts/RobotoBold.svg#RobotoBold') format('svg');
+}
+
+@font-face {
+	font-family: 'RobotoMedium';
+	src: url('/fonts/RobotoMedium.eot');
+	src: url('/fonts/RobotoMedium.eot') format('embedded-opentype'), url('/fonts/RobotoMedium.woff2') format('woff2'), url('/fonts/RobotoMedium.woff') format('woff'), url('/fonts/RobotoMedium.ttf') format('truetype'), url('/fonts/RobotoMedium.svg#RobotoMedium') format('svg');
+}
+
 
 
 // Variables
@@ -12,6 +43,17 @@
 
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
+
+body {
+  margin: 0;
+  font-family: "RobotoRegular", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+  line-height: 1.6;
+  color: #212529;
+  text-align: left;
+  background-color: #ffffff;
+}
 
 @import '~toastr/toastr';
 
@@ -22,6 +64,7 @@
 @import '~slick-lightbox/src/styles/slick-lightbox';
 
 @import '~select2/src/scss/core';
+
 
 
 @media (max-width: 768px){

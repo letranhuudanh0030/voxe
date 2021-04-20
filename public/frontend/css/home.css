@@ -183,17 +183,6 @@
   color: rgba(0, 0, 0, 0.5);
 }
 
-#slideshow .slick-dots li button:before{
-    color: #b60000;
-    font-size: 15px;
-}
-
-#slideshow .slick-dots{
-    width: unset;
-    bottom: 5%;
-    right: 5%;
-}
-
 /*#hd-slide .slide-show::after {*/
 
 /*  content: "";*/

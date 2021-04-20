@@ -9,7 +9,7 @@
         text-align: center;
         transition: all ease 0.3s;
         &:hover{
-            box-shadow: 0 0 10px 0 #000;
+            box-shadow: 0 0 3px 0 #000;
             transition: all ease 0.3s;
         }
         &__image{
@@ -19,8 +19,12 @@
             padding: 5px;
             &--title{
                 background: #FFFFFF;
-                text-shadow: 1px 1px 0 #bcbcbc, 1px 1px 0 #9c9c9c;
+                /*text-shadow: 1px 1px 0 #bcbcbc, 1px 1px 0 #9c9c9c;*/
                 color: #000000;
+                transition: all ease 0.3s;
+                font-size: 1.3em;
+                font-family: RobotoBold;
+                text-transform: uppercase;
                 @media (max-width: 768px) {
                     font-size: 1em;
                 }

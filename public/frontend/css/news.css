@@ -14,7 +14,6 @@
 #news .border-news__info--title {
   font-size: 1.3em;
   background: #FFFFFF;
-  /*text-shadow: 1px 1px 0 #bcbcbc, 1px 1px 0 #9c9c9c;*/
   color: #000000;
   transition: all ease 0.3s;
   font-family: RobotoBold;
@@ -37,9 +36,3 @@
   -webkit-line-clamp: 3;
 }
 
-
-@media (max-width: 768px) {
-  .content img{
-      width: 100%;
-  }
-}

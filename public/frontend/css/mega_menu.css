@@ -1,0 +1,13 @@
+#mega-menu .border-mega-menu {
+  position: absolute;
+  z-index: 9999;
+  font-family: RobotoBold;
+  font-size: 1.2em;
+  width: 100%;
+  background: #e6e6e6;
+}
+
+#mega-menu .border-mega-menu .list-group-item:hover {
+  background: #e6e6e6;
+}
+

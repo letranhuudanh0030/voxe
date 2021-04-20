@@ -40,7 +40,7 @@ class AppServiceProvider extends ServiceProvider
 
         $menus = Menu::orderBy('sort_order', 'desc')->where('publish', 1)->get();
         $articleCate = ArticleCategory::where('publish', 1)->get();
-        $productCate = ProductCategory::where('publish', 1)->get();
+        $productCate = ProductCategory::with('products')->where('publish', 1)->get();
         $configContact = ConfigContact::first();
         $configGeneral = ConfigGeneral::first();
         $menuLocation = MenuLocation::where('publish', 1)->get();

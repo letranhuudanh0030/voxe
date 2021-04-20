@@ -34,6 +34,7 @@
     <link rel="stylesheet" href="{{ asset('frontend/css/header.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/mmenu.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/menu.css') }}">
+    <link rel="stylesheet" href="{{ asset('frontend/css/mega_menu.css') }}">
     <link rel="stylesheet" href="{{ asset('frontend/css/footer.css') }}">
     @livewireStyles
     @yield('css')
@@ -44,7 +45,7 @@
 
         @include('partials.frontend.header')
         @include('partials.frontend.menu')
-
+        @livewire('mega-menu')       
         <div class="container-fluid">
             @yield('content')
         </div>
